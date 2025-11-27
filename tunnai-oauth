@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+  <head><title>OAuth Callback</title></head>
+  <body>
+    <h1>OAuth Redirect Successful</h1>
+    <p>You may close this window.</p>
+  </body>
+</html>
