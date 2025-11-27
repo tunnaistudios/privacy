@@ -1,8 +1,20 @@
 <!DOCTYPE html>
 <html>
-  <head><title>OAuth Redirect</title></head>
+  <head>
+    <title>OAuth Success</title>
+    <script>
+      window.onload = function() {
+        const hash = window.location.hash;
+        if (hash.includes("access_token")) {
+          alert("Token captured. Copy it from the URL bar.");
+        } else {
+          alert("No token found.");
+        }
+      };
+    </script>
+  </head>
   <body>
-    <h1>Redirect successful</h1>
-    <p>You may close this window.</p>
+    <h1>OAuth Success</h1>
+    <p>Check your browser’s address bar for the access token.</p>
   </body>
 </html>
